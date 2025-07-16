@@ -32,8 +32,30 @@ const config: Config = {
                     400: "#81C784",
                     500: "#66BB69",
                 },
+            },
+            fontSize: {
+                'h1' : ['64px', { lineHeight: '76px', fontWeight: '600', }],
+                'h2' : ['36px', { lineHeight: '44px', fontWeight: '600', }],
+                'h3' : ['28px', { lineHeight: '36px', fontWeight: '600', }],
+                'h4' : ['20px', { lineHeight: '28px', fontWeight: '600', }],
+                'xl-regular': ['18', {lineHeight: '28', fontWeight: '400'}],
+                'lg-regular': ['16', {lineHeight: '24', fontWeight: '400'}],
+                'md-regular': ['14', {lineHeight: '20', fontWeight: '400'}],
+                'sm-regular': ['12', {lineHeight: '16', fontWeight: '400'}],
+                'xl-medium': ['18', {lineHeight: '28', fontWeight: '500'}],
+                'lg-medium': ['16', {lineHeight: '24', fontWeight: '500'}],
+                'md-medium': ['14', {lineHeight: '20', fontWeight: '500'}],
+                'sm-medium': ['12', {lineHeight: '16', fontWeight: '500'}],
+            },
+            boxShadow: {
+                'shadow-xs': '0 0 2px rgba(171, 190, 209, 0.6)',
+                'shadow-sm': '0 0 4px rgba(171, 190, 209, 0.4)',
+                'shadow-md': '0 0 6px rgba(171, 190, 209, 0.3)',
+                'shadow-lg': '0 0 8px rgba(171, 190, 209, 0.4)',
+                'shadow-xl': '0 0 16px rgba(171, 190, 209, 0.3)',
             }
         }
     }
 }
 
+export default config;
